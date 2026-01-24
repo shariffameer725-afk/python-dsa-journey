@@ -1,0 +1,19 @@
+print("Day 1 started — no excuses")
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+print("Hello", name)
+print("Age next year:", age + 1)
+num = int(input("Enter number: "))
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
+    
+    character = input("enter a character: ")[0]
+if character in "aeiouAEIOU":
+    print("vowel")
+else:
+    print("consonent")
